@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro.aluno</title>
+</head>
+<body>
+    <section>
+        <form action="index.html" method="">
+            <fieldset>
+                <legend><h3>Cadastro de Alunos</h3></legend>
+                <b>
+                <label for="username">Nome do Aluno:</label>
+                <input type="text" id="username" name="username" required maxlength="20"><br>
+
+                <label for="date">Data de Nascimento:</label>
+                <input type="date" id="date" name="date" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="Turma">Turma:</label>
+                <select name="Turma" required>
+                    <option value=" " selected disabled> </option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                </select><br>
+
+                <label for="Genero">Gênero:</label>  
+                    <input type="radio" name="Genero" value="Masculino">Masculino</input required>
+                    <input type="radio" name="Genero" value="Feminino">Feminino</input required>
+                    <input type="radio" name="Genero" value="Outros">Outros</inbut required>
+                    <br>
+
+                <label for="preferencias">Preferências:</label><br>
+                    <input type="checkbox" id="Esportes" name="Esportes" >Esportes</input required>
+                    <input type="checkbox" id="Musica" name="Musica">Musica</input required>
+                    <input type="checkbox" id="Artes" name="Artes">Artes</input required>
+                    <br>
+                
+                <label for="Observacoes">Observações:</label><br>
+                <textarea name="Observacoes" id="Observacoes" rows="3" cols="33"></textarea><br>
+
+                <button type="submit">Enviar </button>
+                
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
